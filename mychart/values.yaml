@@ -1,3 +1,6 @@
-favorite:
-  drink: coffee
-  food: pizza
+WordPress:
+  name: wordpress-dev
+  env: dev
+  pvc: wp-pv-claim
+  dbhostvalue: wp-frontend-216013:us-central1:wordpress-db-dev
+  replicas: 1
